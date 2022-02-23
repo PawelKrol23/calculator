@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3882F6;
+}
+
+/* footer */
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background-color: #3882F6;
+    padding: 10px;
+}
+
+.my-git {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-date {
+    font-size: 10px;
+    color:#c9cac8;
+}
